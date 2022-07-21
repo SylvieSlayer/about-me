@@ -1,38 +1,36 @@
 'use strict'
 
-// let prompt1 = prompt('do you have any pets?');
+let prompt1 = prompt('do you have any pets?');
 
-// let prompt2 = prompt ('How many?');
+let prompt2 = prompt ('How many?');
 
-// alert ('Awesome!');
+alert ('Awesome!');
 
-// let prompt3 = prompt ('What is your favorite book?');
+let prompt3 = prompt ('What is your favorite book?');
 
-// alert ('I will read it!')
+alert ('I will read it!');
 
-// let prompt4 = prompt ('Whats Your favorite album');
+let prompt4 = prompt ('Whats Your favorite album');
 
-// alert ("I love that one");
+alert ("I love that one");
 
-// let prompt5 = prompt ('what is youre favorite film?');
+let prompt5 = prompt ('what is youre favorite film?');
 
-// alert ('mine is texas chain saw massacre');
+alert ('mine is texas chain saw massacre'); 
 
-//else if
-
-let answer = prompt('Do you like to read?');
-if (answer === yes) {
+let answer1 = prompt('Do you like to read?');
+if (answer1 === 'yes') {
   
   console.log('Excellent!');
 
 } else {
-  console.log('why not?')
+  console.log('why not?');
 }
 
-let answer = prompt1('Guess a Number');
-if (answer === true) {
+let answer = prompt('Guess a Number');
+if (answer === 'yes') {
  console.log('Good Job!');
  
-} else { 
-  console.log('Please try again');
-}
+  } else { 
+    console.log('Please try again');
+  }
